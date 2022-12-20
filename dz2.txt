@@ -1,0 +1,27 @@
+   0 pwd
+   1 cd /home
+   2 mkdir -p user/start
+   3 cd user/start
+   4 touch 1.txt
+   5 echo "Start and hello Ivan" >> 1.txt
+   6 cat 1.txt
+   7 date >> 1.txt
+   8 cat 1.txt
+   9 cd /opt/
+  10 mkdir /task
+  11 cd task
+  12 cd task/
+  13 mkdir task
+  14 cd task/
+  15 cp /home/user/start/1.txt start.txt
+  16 cat start.txt
+  17 ls -la /
+  18 ls - la/ | tail -4
+  19 ls -la / | tail -4
+  20 ls -la /
+  21 ls -la / | tail -4
+  22 ls -la / | tail -4 >> start.txt
+  23 cat start.txt
+  24 cd tmp/
+  25 cd
+  26 history > history.txt
