@@ -1,0 +1,6 @@
+   0 nano sem.txt
+   1 cat /etc/group | tail -5 >> sem.txt 
+   2 vi
+   3 vi sem.txt
+   4 cat sem.txt
+   5 history > /tmp/sem.txt
